@@ -1,0 +1,57 @@
+.category{
+    width:15em;
+    height: 2.5em;
+    outline: none;
+    background-color: #54a7aa;
+    color:whitesmoke;
+    cursor: pointer;
+    border-radius: 4px;
+/*     font-weight: 400;
+    font-size: 13px; */
+}
+.CatSect{
+    margin-bottom:0px;
+}
+
+.CatSect:hover {
+    background: rgb(211, 211, 211);
+  }
+
+.CatSect > img {
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-right: 2px;
+  }
+
+.category:active{
+    background-color: rgb(23, 21, 151);
+    color: white;
+}
+
+.category:focus{
+    background-color: #851c6e;
+    color: white;
+}
+
+/* #c1:enabled{
+    background-color: blue;
+    color: white;
+} */
+
+/* #c1:focus{
+    background-color: rgb(133, 49, 119);
+    color: white;
+
+    user-select: all;
+} */
+
+button.activeBtn1 {
+   background-color: blue;
+   color: #FFFFFF;
+}
+
+button.activeBtn2 {
+    background-color: blue;
+    color: #FFFFFF;
+ }

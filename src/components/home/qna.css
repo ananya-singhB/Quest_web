@@ -1,0 +1,146 @@
+button{
+    border-radius: 15px;
+    background-color: rgb(33, 39, 38);
+    padding: 4px;
+    color: white;
+    outline: none;
+    float:inline-end;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+.ans{
+  padding: 20px;
+}
+
+button:hover {
+  background-color: turquoise;
+  color: black;
+}
+
+button:active {
+  color: white;
+  background-color: #23bd2b;
+}
+
+#rm {
+  background-color: grey;
+  width: 6em;
+  height: 2em;
+  outline: none;
+  float: inline-end;
+  margin-left: 90%;
+  margin-right: 20%;
+}
+
+#ans {
+  width: 6em;
+  height: 2em;
+  background-color: #1d258d;
+  outline: none;
+  float: inline-end;
+  margin-left: 90%;
+  margin-right: 20%;
+}
+
+#rm:hover {
+  background-color: turquoise;
+  color: black;
+}
+
+#rm:active {
+  color: white;
+  background-color: #23bd2b;
+}
+
+#ans:hover {
+  background-color: turquoise;
+  color: black;
+}
+
+#ans:active {
+  color: white;
+  background-color: #23bd2b;
+}
+
+textarea {
+  width: 80%;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  color: #441919;
+  place-content: white;
+  position: relative;
+  resize: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+table {
+margin-top: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+  border: 1px grey solid;
+  padding: 2px;
+  float: left;
+}
+
+th,
+td {
+  display: grid;
+  grid-template-columns: 1252px 1fr;
+  grid-template-areas: "navbar mainContent";
+  grid-gap: 40px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 1px grey dashed;
+  padding: 20px;
+  text-align: left;
+}
+
+#content {
+  padding-bottom: 90px;
+}
+
+#contents {
+    padding-bottom: 40rem;
+}
+
+#Qbutton{
+  font-size: 15px;;
+  padding: 5px 20px;
+  border: 0;
+  background-color: #550e3d;
+  color: white;
+  border-radius: 15px;
+  transition: all 250ms ease-in-out;
+  float: right;
+  margin-right: 4%;
+  margin-bottom: 20px;
+}
+
+#Qbuton:hover{
+  background-color: #4fc459;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0px 0px 14px 0.4px white;
+}
+
+#Qbutton:active{
+  color: #360805;
+  background-color: #15cdfc;
+}
+
+#search{
+  width: 40em;
+}
+
+#stick{
+  margin: 10px;
+}
+
+#QB{
+  margin-bottom: 10px;
+}

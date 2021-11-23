@@ -1,0 +1,108 @@
+/* Auth Pages */
+body{
+  overflow:visible;
+}
+
+.base-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.header-login {
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+}
+  
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.content .image {
+    width: 21em;
+}
+  
+/* .content  */.image img {
+    width: 30%;
+    height: 40%;
+}
+  
+.form {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+}
+  
+.form-group { 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+}
+  
+  /* label {
+    font-size: 20px;
+    margin: 3px;
+    padding: 0px;
+  }
+   */
+input {
+    margin-top: 0.5px;
+    /* min-width: 3em; */
+    width: 21em;
+    height: 35px;
+    padding: 0px 10px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f3f3f3;
+    border: 0;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    transition: all 250ms ease-in-out;
+    box-sizing:initial;
+}
+  
+input:hover {
+    background-color: #FAEBD7;
+    box-shadow: 0px 0px 14px 0.3px #0e820e;
+}
+  
+input:focus {
+    outline: none;
+    box-shadow: 0px 0px 12px 0.8px #3474db;
+}
+  
+.footer-login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.recover-pass{
+    text-decoration:none;
+    float: left;
+    margin-left: 10px;
+}
+  
+.text-danger{
+    color: red;
+    display: flex;
+}
+
+Form.Label{
+    border-bottom: none;
+    border-top: none;
+}
+
+.upload, .upload:hover, .upload:focus {
+    background-color: #ebf3d2;
+    box-shadow:none;
+    outline: none;
+}
+
+.image-profile img {
+    width: 20%;
+}
